@@ -12,5 +12,23 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+// var slides, slides_total, slide_current;
+
+// function changePicture (slide) {
+// 	for(var i = 0; i < slides_total; i++) {
+// 		slides[i].style.display = 'none';
+// 	}
+// 	slides[slide].style.display = 'block';
+// };
+
+// document.addEventListener('DOMContentLoaded', function(){
+// 	slides = document.getElementByClassName('col-sm-12');
+// 	slides_total = slides.length;
+// 	slides_current = 0;
+// 	changePicture(1);
+// 	changePicture(2);
+// });
