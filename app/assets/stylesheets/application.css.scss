@@ -14,3 +14,17 @@
  *= require_self
  */
 @import 'bootstrap';
+
+.image2, .image3 {
+  display: none;
+}
+
+.home-container {
+	padding: 35px;
+	width: 100%;
+	text-align: center;
+}
+
+.home-buttons {
+	text-align: center;
+}
