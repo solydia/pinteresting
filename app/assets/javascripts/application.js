@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', function(){
 	  }
 	  console.log(slide_current);
 	  changePicture(slide_current);
+	  ga('send', 'event', 'slider', 'click next', 'click the next button', 1);
+	  mixpanel.track("previous button click");
 	});
 
 	document.getElementsByClassName('next')[0].addEventListener('click', function () {
